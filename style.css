@@ -1,0 +1,116 @@
+@font-face {
+    font-family:'Roboto-Regular';
+    src: url(assets/fonts/Roboto-Light.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(assets/fonts/Roboto-Bold.ttf) format(truetype);
+}
+
+body{
+background-color: #F5F5F5;
+}
+.cabecalho{
+    Width: 1920px;
+    Height: 422px;
+    background-color: #ffda00;
+    position: absolute;
+    margin: -0.2cm;
+}
+.cabecalho h1{
+    position: absolute;
+    width: 702px;
+    height: 82px;
+    left: 609px;
+    top: 40px;
+    font-family:'Roboto-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 82px;  
+    text-align: center;
+    color: #180133;
+}
+.cabecalho h2{
+    position: absolute;
+    width: 492px;
+    height: 47px;
+    left: 704px;
+    top: 153px;
+    font-family: 'Roboto-bold';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #492B7C;
+}
+.heart{
+    position: absolute;
+    width: 17px;
+    top: 1px;
+    left: -4px;
+}
+
+.cabecalho p{
+    position: absolute;
+    width: 158px;
+    height: 18px;
+    left: 875px;
+    top: 247px;
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #AB9200;
+}
+.logo{
+    position: absolute;
+    left: 890px;
+    top: 285px;
+}
+.page__menu{
+    overflow: hidden;
+    position: absolute;
+    top: 320px;
+    left: 510px;
+
+  } 
+  .page__menu a{
+    float: left;
+    color: #180133;
+    padding: 28px 16px;
+    text-decoration: none;
+    font-family: 'Roboto-Regular';
+    font-weight: 600;
+    font-size: 20px; 
+  }
+  .page__menu a:hover{
+    color: #492B7C;
+    border-bottom: solid 4px #492B7C;
+  }
+  .active{
+    color: #492B7C;
+    border-bottom: solid 4px #492B7C;
+  }
+  .black_heart{
+    width: 22px;
+    height: 20px;
+    padding-right: 10px;
+  }
+  .wand{
+    width: 22px;
+    height: 20px;
+    padding-right: 10px;
+  }
+  .paper{
+    width: 22px;
+    height: 20px;
+    padding-right: 10px;
+  }
+  .share{
+    width: 22px;
+    height: 20px;
+    padding-right: 10px;
+  }
